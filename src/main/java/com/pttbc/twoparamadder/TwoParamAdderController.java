@@ -1,6 +1,4 @@
-package controller;
-
-import dto.TwoParamAdderResponse;
+package com.pttbc.twoparamadder;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

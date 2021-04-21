@@ -1,4 +1,4 @@
-package dto;
+package com.pttbc.twoparamadder;
 
 public class TwoParamAdderResponse {
 	private int sum;
