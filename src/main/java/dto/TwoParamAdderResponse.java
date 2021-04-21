@@ -1,13 +1,13 @@
 package dto;
 
 public class TwoParamAdderResponse {
-	private Long sum;
+	private int sum;
 	
-	public TwoParamAdderResponse(Long num1, Long num2) {
-		this.sum = num1 + num2;
+	public TwoParamAdderResponse(String num1, String num2) {
+		this.sum = Integer.parseInt(num1) + Integer.parseInt(num2);
 	}
 	
-	public Long getSum() {
+	public int getSum() {
 		return sum;
 	}
 }
