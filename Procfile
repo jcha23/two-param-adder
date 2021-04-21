@@ -1,1 +1,1 @@
-web: java -jar target/two-param-adder.jar
+web: java -jar target/two-param-adder-0.0.1-SNAPSHOT.jar
